@@ -3,10 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA04D1F62482E81C00BF1648 /* ImageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA04D1F52482E81C00BF1648 /* ImageList.swift */; };
+		DA04D1F82482EA2900BF1648 /* ImageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA04D1F72482EA2900BF1648 /* ImageRow.swift */; };
+		DA151CBE248B64730074FFDD /* TripRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA151CBD248B64730074FFDD /* TripRow.swift */; };
+		DA151CC0248B67AB0074FFDD /* TripList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA151CBF248B67AB0074FFDD /* TripList.swift */; };
+		DA151CC2248B6A1B0074FFDD /* TripEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA151CC1248B6A1B0074FFDD /* TripEditor.swift */; };
+		DA29EEFD2485551700560158 /* locationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA29EEFC2485551700560158 /* locationRow.swift */; };
+		DA29EEFF2485555500560158 /* locationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA29EEFE2485555500560158 /* locationList.swift */; };
+		DA29EF0224855FBA00560158 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA29EF0124855FBA00560158 /* Country.swift */; };
+		DA29EF0424855FDF00560158 /* Countrydata.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA29EF0324855FDF00560158 /* Countrydata.swift */; };
 		DA3BF8D524829E170078A930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3BF8D424829E170078A930 /* AppDelegate.swift */; };
 		DA3BF8D724829E170078A930 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3BF8D624829E170078A930 /* SceneDelegate.swift */; };
 		DA3BF8D924829E170078A930 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3BF8D824829E170078A930 /* ContentView.swift */; };
@@ -15,6 +24,23 @@
 		DA3BF8E124829E180078A930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3BF8DF24829E180078A930 /* LaunchScreen.storyboard */; };
 		DA3BF8EC24829E190078A930 /* SwiftUI_finalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3BF8EB24829E190078A930 /* SwiftUI_finalTests.swift */; };
 		DA3BF8F724829E190078A930 /* SwiftUI_finalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3BF8F624829E190078A930 /* SwiftUI_finalUITests.swift */; };
+		DA3BF9052482A1AF0078A930 /* ImageResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3BF9042482A1AF0078A930 /* ImageResults.swift */; };
+		DA3BF9092482C50A0078A930 /* ImageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3BF9082482C50A0078A930 /* ImageListViewModel.swift */; };
+		DA3BF90C2482D9330078A930 /* ImageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3BF90B2482D9330078A930 /* ImageDetail.swift */; };
+		DA5B91FD2489299B000DD4EE /* openview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5B91FC2489299B000DD4EE /* openview.swift */; };
+		DA7619A724949C6A001195E1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7619A624949C6A001195E1 /* MapView.swift */; };
+		DA7619AB24949D67001195E1 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7619AA24949D67001195E1 /* ImageView.swift */; };
+		DA7619AD2494A83B001195E1 /* CheckImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7619AC2494A83B001195E1 /* CheckImage.swift */; };
+		DA7619AF2494B993001195E1 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7619AE2494B993001195E1 /* SafariView.swift */; };
+		DA7A9C73248BE88300F227F7 /* TripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7A9C72248BE88300F227F7 /* TripView.swift */; };
+		DAA5FADD24875905004451B6 /* WaterfallGrid in Frameworks */ = {isa = PBXBuildFile; productRef = DAA5FADC24875905004451B6 /* WaterfallGrid */; };
+		DAA5FADF24877BA1004451B6 /* picturewall.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA5FADE24877BA1004451B6 /* picturewall.swift */; };
+		DAC6D94D2489F297007BDBAA /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC6D94C2489F297007BDBAA /* Trip.swift */; };
+		DAC6D94F2489F43D007BDBAA /* TripData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC6D94E2489F43D007BDBAA /* TripData.swift */; };
+		DAD2C15E24908A790099B90C /* UnsplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD2C15D24908A790099B90C /* UnsplashViewModel.swift */; };
+		DAD2C16424908B140099B90C /* StatsMonthResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD2C16324908B140099B90C /* StatsMonthResults.swift */; };
+		DAD2C166249094680099B90C /* UnsplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD2C165249094680099B90C /* UnsplashView.swift */; };
+		DAF947E1248F5905002CC3E0 /* TripViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF947E0248F5905002CC3E0 /* TripViewRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +61,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA04D1F52482E81C00BF1648 /* ImageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageList.swift; sourceTree = "<group>"; };
+		DA04D1F72482EA2900BF1648 /* ImageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRow.swift; sourceTree = "<group>"; };
+		DA151CBD248B64730074FFDD /* TripRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripRow.swift; sourceTree = "<group>"; };
+		DA151CBF248B67AB0074FFDD /* TripList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripList.swift; sourceTree = "<group>"; };
+		DA151CC1248B6A1B0074FFDD /* TripEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripEditor.swift; sourceTree = "<group>"; };
+		DA29EEFC2485551700560158 /* locationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationRow.swift; sourceTree = "<group>"; };
+		DA29EEFE2485555500560158 /* locationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationList.swift; sourceTree = "<group>"; };
+		DA29EF0124855FBA00560158 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		DA29EF0324855FDF00560158 /* Countrydata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countrydata.swift; sourceTree = "<group>"; };
 		DA3BF8D124829E170078A930 /* SwiftUI-final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3BF8D424829E170078A930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA3BF8D624829E170078A930 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +84,22 @@
 		DA3BF8F224829E190078A930 /* SwiftUI-finalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-finalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3BF8F624829E190078A930 /* SwiftUI_finalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_finalUITests.swift; sourceTree = "<group>"; };
 		DA3BF8F824829E190078A930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3BF9042482A1AF0078A930 /* ImageResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResults.swift; sourceTree = "<group>"; };
+		DA3BF9082482C50A0078A930 /* ImageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListViewModel.swift; sourceTree = "<group>"; };
+		DA3BF90B2482D9330078A930 /* ImageDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetail.swift; sourceTree = "<group>"; };
+		DA5B91FC2489299B000DD4EE /* openview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openview.swift; sourceTree = "<group>"; };
+		DA7619A624949C6A001195E1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DA7619AA24949D67001195E1 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		DA7619AC2494A83B001195E1 /* CheckImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckImage.swift; sourceTree = "<group>"; };
+		DA7619AE2494B993001195E1 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		DA7A9C72248BE88300F227F7 /* TripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripView.swift; sourceTree = "<group>"; };
+		DAA5FADE24877BA1004451B6 /* picturewall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picturewall.swift; sourceTree = "<group>"; };
+		DAC6D94C2489F297007BDBAA /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		DAC6D94E2489F43D007BDBAA /* TripData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripData.swift; sourceTree = "<group>"; };
+		DAD2C15D24908A790099B90C /* UnsplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashViewModel.swift; sourceTree = "<group>"; };
+		DAD2C16324908B140099B90C /* StatsMonthResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsMonthResults.swift; sourceTree = "<group>"; };
+		DAD2C165249094680099B90C /* UnsplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashView.swift; sourceTree = "<group>"; };
+		DAF947E0248F5905002CC3E0 /* TripViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA5FADD24875905004451B6 /* WaterfallGrid in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +128,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA29EF0024855F7000560158 /* CountryData */ = {
+			isa = PBXGroup;
+			children = (
+				DA29EF0124855FBA00560158 /* Country.swift */,
+				DA29EF0324855FDF00560158 /* Countrydata.swift */,
+			);
+			path = CountryData;
+			sourceTree = "<group>";
+		};
 		DA3BF8C824829E170078A930 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +160,12 @@
 		DA3BF8D324829E170078A930 /* SwiftUI-final */ = {
 			isa = PBXGroup;
 			children = (
+				DA7619A524949C3A001195E1 /* UIKit */,
+				DA3BF9072482C4CD0078A930 /* ViewModels */,
+				DA3BF9062482A1BB0078A930 /* Models */,
+				DA29EF0024855F7000560158 /* CountryData */,
+				DAC6D94B2489F25A007BDBAA /* TripData */,
+				DA3BF90A2482D8ED0078A930 /* View */,
 				DA3BF8D424829E170078A930 /* AppDelegate.swift */,
 				DA3BF8D624829E170078A930 /* SceneDelegate.swift */,
 				DA3BF8D824829E170078A930 /* ContentView.swift */,
@@ -136,6 +203,64 @@
 			path = "SwiftUI-finalUITests";
 			sourceTree = "<group>";
 		};
+		DA3BF9062482A1BB0078A930 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA3BF9042482A1AF0078A930 /* ImageResults.swift */,
+				DAD2C16324908B140099B90C /* StatsMonthResults.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DA3BF9072482C4CD0078A930 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DA3BF9082482C50A0078A930 /* ImageListViewModel.swift */,
+				DAD2C15D24908A790099B90C /* UnsplashViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DA3BF90A2482D8ED0078A930 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA5B91FC2489299B000DD4EE /* openview.swift */,
+				DAD2C165249094680099B90C /* UnsplashView.swift */,
+				DA7A9C72248BE88300F227F7 /* TripView.swift */,
+				DAF947E0248F5905002CC3E0 /* TripViewRow.swift */,
+				DAA5FADE24877BA1004451B6 /* picturewall.swift */,
+				DA151CBF248B67AB0074FFDD /* TripList.swift */,
+				DA151CC1248B6A1B0074FFDD /* TripEditor.swift */,
+				DA151CBD248B64730074FFDD /* TripRow.swift */,
+				DA29EEFE2485555500560158 /* locationList.swift */,
+				DA29EEFC2485551700560158 /* locationRow.swift */,
+				DA04D1F52482E81C00BF1648 /* ImageList.swift */,
+				DA04D1F72482EA2900BF1648 /* ImageRow.swift */,
+				DA3BF90B2482D9330078A930 /* ImageDetail.swift */,
+				DA7619AC2494A83B001195E1 /* CheckImage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA7619A524949C3A001195E1 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DA7619A624949C6A001195E1 /* MapView.swift */,
+				DA7619AA24949D67001195E1 /* ImageView.swift */,
+				DA7619AE2494B993001195E1 /* SafariView.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		DAC6D94B2489F25A007BDBAA /* TripData */ = {
+			isa = PBXGroup;
+			children = (
+				DAC6D94C2489F297007BDBAA /* Trip.swift */,
+				DAC6D94E2489F43D007BDBAA /* TripData.swift */,
+			);
+			path = TripData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +277,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI-final";
+			packageProductDependencies = (
+				DAA5FADC24875905004451B6 /* WaterfallGrid */,
+			);
 			productName = "SwiftUI-final";
 			productReference = DA3BF8D124829E170078A930 /* SwiftUI-final.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +352,9 @@
 				Base,
 			);
 			mainGroup = DA3BF8C824829E170078A930;
+			packageReferences = (
+				DAA5FADB24875905004451B6 /* XCRemoteSwiftPackageReference "WaterfallGrid" */,
+			);
 			productRefGroup = DA3BF8D224829E170078A930 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -267,8 +398,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA7619AB24949D67001195E1 /* ImageView.swift in Sources */,
+				DA29EEFF2485555500560158 /* locationList.swift in Sources */,
+				DA3BF90C2482D9330078A930 /* ImageDetail.swift in Sources */,
+				DA5B91FD2489299B000DD4EE /* openview.swift in Sources */,
 				DA3BF8D524829E170078A930 /* AppDelegate.swift in Sources */,
+				DAF947E1248F5905002CC3E0 /* TripViewRow.swift in Sources */,
+				DAC6D94D2489F297007BDBAA /* Trip.swift in Sources */,
+				DA151CBE248B64730074FFDD /* TripRow.swift in Sources */,
+				DA7A9C73248BE88300F227F7 /* TripView.swift in Sources */,
+				DAD2C16424908B140099B90C /* StatsMonthResults.swift in Sources */,
+				DAA5FADF24877BA1004451B6 /* picturewall.swift in Sources */,
+				DA151CC0248B67AB0074FFDD /* TripList.swift in Sources */,
+				DA29EEFD2485551700560158 /* locationRow.swift in Sources */,
+				DAD2C15E24908A790099B90C /* UnsplashViewModel.swift in Sources */,
+				DA151CC2248B6A1B0074FFDD /* TripEditor.swift in Sources */,
+				DA3BF9092482C50A0078A930 /* ImageListViewModel.swift in Sources */,
 				DA3BF8D724829E170078A930 /* SceneDelegate.swift in Sources */,
+				DA7619AD2494A83B001195E1 /* CheckImage.swift in Sources */,
+				DA7619AF2494B993001195E1 /* SafariView.swift in Sources */,
+				DA04D1F82482EA2900BF1648 /* ImageRow.swift in Sources */,
+				DAC6D94F2489F43D007BDBAA /* TripData.swift in Sources */,
+				DAD2C166249094680099B90C /* UnsplashView.swift in Sources */,
+				DA29EF0224855FBA00560158 /* Country.swift in Sources */,
+				DA7619A724949C6A001195E1 /* MapView.swift in Sources */,
+				DA04D1F62482E81C00BF1648 /* ImageList.swift in Sources */,
+				DA3BF9052482A1AF0078A930 /* ImageResults.swift in Sources */,
+				DA29EF0424855FDF00560158 /* Countrydata.swift in Sources */,
 				DA3BF8D924829E170078A930 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +744,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAA5FADB24875905004451B6 /* XCRemoteSwiftPackageReference "WaterfallGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/paololeonardi/WaterfallGrid";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DAA5FADC24875905004451B6 /* WaterfallGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAA5FADB24875905004451B6 /* XCRemoteSwiftPackageReference "WaterfallGrid" */;
+			productName = WaterfallGrid;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DA3BF8C924829E170078A930 /* Project object */;
 }
